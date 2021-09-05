@@ -1,0 +1,26 @@
+<!-- tab1.page.html -->
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-title>
+      Daftar Pengguna Baru
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1>Daftar pengguna</h1>
+  <ion-item>
+    EMail: &nbsp;
+    <ion-input type="email" [(ngModel)]="email" required>
+      </ion-input>
+  </ion-item>
+  <ion-item>
+    Katalaluan: &nbsp;
+    <ion-input type="password" [(ngModel)]="password" required>
+      </ion-input>
+  </ion-item>
+  <ion-button (click)="registerUser()">
+    Daftar pengguna baru
+  </ion-button>
+
+</ion-content>

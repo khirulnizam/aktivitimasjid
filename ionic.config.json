@@ -1,0 +1,7 @@
+{
+  "name": "aktivitimasjid",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
