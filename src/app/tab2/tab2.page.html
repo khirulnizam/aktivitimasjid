@@ -1,17 +1,26 @@
+<!-- tab2.page.html -->
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="success">
     <ion-title>
-      Tab 2
+      Login Pengguna
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h1>Login pengguna</h1>
+  <ion-item>
+    EMail: &nbsp;
+    <ion-input type="email" [(ngModel)]="email" required>
+      </ion-input>
+  </ion-item>
+  <ion-item>
+    Katalaluan: &nbsp;
+    <ion-input type="password" [(ngModel)]="password" required>
+      </ion-input>
+  </ion-item>
+  <ion-button (click)="cubalogin()">
+    Login
+  </ion-button>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
