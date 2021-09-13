@@ -4,15 +4,15 @@
 
 export const environment = {
   production: false,
-  firebaseConfig : {
-    apiKey: "AIzaSyBtvsj63ZcyQD0FZaFWFYnxQar5iqVLTH0",
-    authDomain: "aktivitimasjid.firebaseapp.com",
-    projectId: "aktivitimasjid",
-    storageBucket: "aktivitimasjid.appspot.com",
-    messagingSenderId: "741945659494",
-    appId: "1:741945659494:web:76410e1754ca5f6cbe5da7",
-    measurementId: "G-3QCVLV2QGK"
-  }
+  /*firebaseConfig : {
+    apiKey: "YOUR-FIREBASE-APIKEY-HERE",
+    authDomain: "YOUR-FIREBASE-SETTINGS-HERE",
+    projectId: "YOUR-FIREBASE-SETTINGS-HERE",
+    storageBucket: "YOUR-FIREBASE-SETTINGS-HERE",
+    messagingSenderId: "YOUR-FIREBASE-SETTINGS-HERE",
+    appId: "YOUR-FIREBASE-SETTINGS-HERE",
+    measurementId: "YOUR-FIREBASE-SETTINGS-HERE"
+  }*/
 };
 
 /*
