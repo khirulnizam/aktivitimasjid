@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-    apiKey: "AIzaSyBLFIEEjFL6qYyR-L7J_QoFU6gJ8wvTjOY",
-    authDomain: "masjid-tdcs2073.firebaseapp.com",
-    projectId: "masjid-tdcs2073",
-    storageBucket: "masjid-tdcs2073.appspot.com",
-    messagingSenderId: "843970010976",
-    appId: "1:843970010976:web:82e601e4ba3042f53d0805",
-    measurementId: "G-8X94RD9CYK"
+    apiKey: "AIzaSyBtvsj63ZcyQD0FZaFWFYnxQar5iqVLTH0",
+    authDomain: "aktivitimasjid.firebaseapp.com",
+    projectId: "aktivitimasjid",
+    storageBucket: "aktivitimasjid.appspot.com",
+    messagingSenderId: "741945659494",
+    appId: "1:741945659494:web:76410e1754ca5f6cbe5da7",
+    measurementId: "G-3QCVLV2QGK"
   }
 };
 

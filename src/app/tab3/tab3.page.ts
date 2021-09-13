@@ -22,6 +22,7 @@ export class Tab3Page {
           id: e.payload.doc.id,
           isEdit: false,
           namaaktiviti: e.payload.doc.data()['namaaktiviti'],
+          penceramah: e.payload.doc.data()['penceramah'],
           tarikhaktiviti: e.payload.doc.data()['tarikhaktiviti'],
         };
       })

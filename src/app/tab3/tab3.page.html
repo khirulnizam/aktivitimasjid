@@ -1,6 +1,6 @@
 <!-- //tab3.page.html -->
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="success">
     <ion-title>
       Listing
     </ion-title>
@@ -10,6 +10,6 @@
 <ion-content [fullscreen]="true">
   <h1>Senarai aktiviti masjid</h1>
   <ion-item *ngFor="let data of activities">
-    {{data.namaaktiviti}}: {{data.tarikhaktiviti}}
+    {{data.namaaktiviti}}: {{data.penceramah}} : {{data.tarikhaktiviti}}
   </ion-item>
   </ion-content>
