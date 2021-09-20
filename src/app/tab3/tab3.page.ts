@@ -13,7 +13,7 @@ export class Tab3Page {
 
     //activities:any;
   activities = [];//hold records
-  ngOnInit() {
+  ionViewWillEnter() {
     //read activities from firestore
     this.readActivities().subscribe(data => {
 

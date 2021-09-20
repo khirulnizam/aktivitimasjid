@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Masukkan aktiviti masjid baharu</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Tarikh Aktiviti Dijalankan</ion-label>
+    <ion-input [(ngModel)]="data.tarikhaktiviti" type="date"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Nama Aktiviti</ion-label>
+    <ion-input
+      [(ngModel)]="data.namaaktiviti" type="text"
+      placeholder="Apakah nama aktiviti ini?"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Nama penceramah</ion-label>
+    <ion-input
+      [(ngModel)]="data.penceramah" type="text"
+      placeholder="Nama penceramah program ini"
+    ></ion-input>
+  </ion-item>
+
+
+  <ion-button expand="block" type="submit" 
+    (click)="trycreaterecord()">
+    Tambah rekod aktiviti baharu
+  </ion-button>
+
+</ion-content>

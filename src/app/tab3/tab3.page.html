@@ -4,12 +4,25 @@
     <ion-title>
       Listing
     </ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button fill="outline"  [routerLink]="['/insertrecord']">
+        <ion-icon slot="end" name="add">
+        </ion-icon>
+        Add
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <h1>Senarai aktiviti masjid</h1>
-  <ion-item *ngFor="let data of activities">
-    {{data.namaaktiviti}}: {{data.penceramah}} : {{data.tarikhaktiviti}}
-  </ion-item>
-  </ion-content>
+  <ion-card>
+    <ion-card-header>
+      <h1>Senarai aktiviti masjid</h1>
+    </ion-card-header>
+      <ion-card-content>
+      <ion-item *ngFor="let data of activities">
+        {{data.namaaktiviti}}: {{data.penceramah}} : {{data.tarikhaktiviti}}
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
